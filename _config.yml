@@ -3,5 +3,7 @@ title: Security and Development
 owner:
   name: Jean de Smidt
   linkedin: 
-  
+
+show_excerpts: true
+
 theme: jekyll-theme-minimal
