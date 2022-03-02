@@ -1,5 +1,5 @@
 layout: page
 title: "AWS security"
-permalink: /security/aws
+permalink: /security/aws/
 
 This is a test page
