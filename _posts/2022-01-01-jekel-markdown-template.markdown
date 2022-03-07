@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown examples"
-date:   2022-03-02 16:31:19 +0200
+date:   2022-01-01 16:31:19 +0200
 categories: markdown jekyll
 ---
 The post contains different markdown examples that can be used when creating new Jekyll posts.
