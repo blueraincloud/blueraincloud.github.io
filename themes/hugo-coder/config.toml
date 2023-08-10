@@ -1,4 +1,4 @@
-baseurl = "https://blueraincloud.github.io"
+baseurl = "https://blueraincloud.github.io/docs/"
 title = "johndoe"
 theme = "hugo-coder"
 languagecode = "en"
