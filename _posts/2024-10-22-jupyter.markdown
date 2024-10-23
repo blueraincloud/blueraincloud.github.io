@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Jupyter"
 date:   2024-10-23 15:35:34 +0200
 categories: jekyll update
@@ -10,5 +10,5 @@ categories: jekyll update
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 {::nomarkdown}
-{% jupyter_notebook "sample.ipynb" %}
+{ jupyter_notebook "sample.ipynb" }
 {:/nomarkdown}
