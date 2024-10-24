@@ -20,13 +20,14 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "bluerain.cloud"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+tagline                  : "Deep learning, computer vision, machine learning tutorials & consulting"
+name                     : "Jean"
+description              : "Deep learning, computer vision, machine learning tutorials & consulting"
 url                      : "https://bluerain.cloud" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -68,8 +69,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
@@ -115,7 +116,7 @@ analytics:
 author:
   name             : "Jean"
   avatar           : "/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I do things."
+  bio              : "I do ML/DL."
   location         : "Netherlands"
   email            :
   links:
@@ -264,6 +265,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-jupyter-notebook
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -326,5 +329,11 @@ defaults:
       comments: # true
       share: true
       related: true
-
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 date_format: "%B %Y"

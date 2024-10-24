@@ -58,3 +58,4 @@ gem "jekyll-jupyter-notebook"
 gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
+gem 'jekyll-seo-tag'

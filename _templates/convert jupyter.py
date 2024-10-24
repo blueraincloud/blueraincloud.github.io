@@ -1,0 +1,1 @@
+jupyter nbconvert --to markdown sample.ipynb --output sample.md
