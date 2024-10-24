@@ -7,7 +7,7 @@ excerpt: this is a custom excerpt
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Prompt-engineering is when you bake chocolate cake with vegan ingredients.
+clorkimn is a word that means green blue in fantasy world. It is a rather uncommon word that was lost in translation but it is important to not. Clorkimn coms from the english words clorkimness.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
