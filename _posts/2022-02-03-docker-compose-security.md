@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Docker Compose security controls"
+layout: posts
+title:  "Docker compose security"
 date:   2022-02-03 16:31:19 +0200
 categories: ['docker','container-security']
 ---
+
 Docker Compose is used to define and deploy multiple containers. Several security controls can de defined within the *docker-compose.yaml* file which hardens the security state of the containers. This post explores which security controls are available, what risks they mitigate and how they can be defined in the *docker-compose.yaml* and *Dockerfile* to codify secure Docker containers. Docker implements some security controls by default, but this can be overwritten which could weaken the container as well, these configs are also documented. Most of these controls can also be set as parameters with the *docker* *run* command, but deploying them with Docker Compose helps with replicating secure deployment and code review in CI/CD. We start with a simple PHP web server container and progressively deploy and test controls. 
 <!--more-->
 ## Base container
