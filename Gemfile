@@ -58,3 +58,4 @@ gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
 gem 'jekyll-seo-tag'
 gem 'public_suffix', '>= 5.0.0'
+gem 'jekyll-sass-converter'
