@@ -14,8 +14,6 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "minimal-mistakes-jekyll"
-
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
 #   gem "jekyll-sitemap"
@@ -59,3 +57,4 @@ gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
 gem 'jekyll-seo-tag'
+gem 'public_suffix', '~> 5.1'
