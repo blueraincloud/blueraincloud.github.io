@@ -44,20 +44,6 @@ $_susy-error-output-override: false !default;
 }
 
 
-// Su Is Comparable
-// ----------------
-/// Check that the units in a grid are comparable
-///
-/// @group x-validation
-/// @access private
-///
-/// @param {numbers} $lengths… -
-///   Arglist of all the number values to compare
-///   (columns, gutters, span, etc)
-///
-/// @return {'fluid' | 'static' | false} -
-///   The type of span (fluid or static) when units match,
-///   or `false` for mismatched units
 @function _su-is-comparable(
   $lengths...
 ) {
