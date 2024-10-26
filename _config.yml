@@ -337,3 +337,4 @@ defaults:
       layout: single
       author_profile: true
 date_format: "%B %Y"
+encoding: "utf-8"
