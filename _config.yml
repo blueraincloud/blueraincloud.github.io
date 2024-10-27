@@ -267,6 +267,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-jupyter-notebook
+  - jekyll-sitemap
 
 # mimic GitHub Pages with --safe
 whitelist:
